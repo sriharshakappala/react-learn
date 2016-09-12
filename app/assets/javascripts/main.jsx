@@ -1,6 +1,14 @@
+class Main extends React.Component {
+  render() {
+    return(
+      <h1>Hello from main component</h1>
+    );
+  }
+}
+
 let documentReady = () => {
   ReactDOM.render(
-    <h1>Hello World</h1>,
+    <Main />,
     document.getElementById('react')
   );
 }
